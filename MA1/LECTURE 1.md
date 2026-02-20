@@ -152,4 +152,4 @@ Whenever $A \subseteq R$, the function is a real variable real function.
 The plot of the function is the set of all ordered pairs $\{(x,y) : x \in D(f), y = f(x) \}$ 
 The plot of the sequence is the set of all ordered pairs. Graphically, a bunch of dots.
 
-The (natural) domain and codomain of a function of real variables... Since the function is given usually as a formula, well-defined everywhere or not. $\frac{\sqrt x}{x-1}$ is not well defined for every variable. Thus natural domain $D(f) = [0,1) \cup (1, +\infty)$ $\subset R$ 
+The (natural) domain and codomain of a function of real variables... Since the function is given usually as a formula, well-defined everywhere or not. $\frac{\sqrt x}{x-1}$ is not well defined for every variable. Thus natural domain $D(f) = [0,1) \cup (1, +\infty)$ $\subset R$ ######
