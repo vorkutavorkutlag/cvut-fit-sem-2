@@ -23,7 +23,6 @@ void append(array<T>& a, T x) {
 }
 ```
 
-
 STL, standard templates, uses templates everywhere; vectors, sorting, etc.
 We may check for errors with exceptions now. `if(error)`...
 It is a loop of try, catching, with a default `catch(...)` at the end. Some known exceptions include `std::out_of_range& e`
