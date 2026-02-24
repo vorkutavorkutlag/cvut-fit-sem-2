@@ -1,4 +1,5 @@
 
+
 We will be covering a lot of vector spaces and Matrix factorization.
 In LA1, we worked in vector spaces of $F^n$ and solved SLEs for tasks.
 We should define again vector spaces, also infinite dimensional vector spaces.
