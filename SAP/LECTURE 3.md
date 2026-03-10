@@ -71,9 +71,11 @@ The simplest one is the **R-S latch**, our leading example guiding us right now.
 ![[Pasted image 20260302193205.png]]
 These are NOR gates
 Two inputs, two outputs. These outputs, as a warning, look like Q and Q negated, is needs not be exactly like that, it's just a bad notation.
+Hah. RSnorlax.
 
 Editor's note: which one of these runs first?? Isn't this circular reasoning? We talked about this being a problem in DBS today for example..
 Outcome: Even though there is a loop, it is stable. Even though the output of this gate, depends on the output of the other gate, it goes in a loop, we can clearly calculate it. But, in some cases, say if both inputs are zero, there will be an issue.
+Outcome: Doesn't matter! Since this is NOR, not AND, we can predetermine one output no matter the other! Except the case both are zero... 
 
 ![[Pasted image 20260302193710.png]]
 
