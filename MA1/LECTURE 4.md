@@ -1,4 +1,4 @@
-### Limits
+### Limits of Sequences
 
 ##### Finite
 
@@ -70,4 +70,37 @@ Also,
 - $\frac{1}{+\infty} = \frac{1}{-\infty} = 0$
 - $a \neq 0$: $|\frac{a}{0}| = +\infty$
 
-All these are indeterminate: $\pm \infty \pm \pm \infty, 0 \cdot \pm \infty, \frac{\pm \infty}{\pm \infty}, \frac{0}{0}$ 
+All these are indeterminate: $\pm \infty \mp \pm \infty, 0 \cdot \pm \infty, \frac{\pm \infty}{\pm \infty}, \frac{0}{0}$ 
+
+Consider two sequences, $(a_n)_n := (-1)^n,~~~ (b_n)_n := (-1)^{n+1}$
+The sum of the two sequences has a limit, despite the fact that the sequences on their own do not have limits.
+
+Given that two sequences have limits, we can decompose the limit into two.
+For example, $2n^3 + 4n$ can be decomposed into $2n^3$, and $4n$. We find their limits, and sum them up. Trivially, in this case, we have $+\infty + +\infty$, which gives $+\infty$.
+
+In cases of indeterminate expressions, primarily with polynomials, we can factor the highest degree, and then every fraction's limit will be 0. Then, we are left with the coefficient of the highest degree polynomial as our limit's solution.
+
+According to theorem,
+$lim~_{n\rightarrow +\infty}~a^n$ is:
+- if $a>1$: $+\infty$
+- if $a=1$: 1
+- if $|a| < 1$: 0
+- if $a \leq -1$: $\not \exists$
+
+We can take constants out of the limit.
+For example, if we know $lim~_{n \rightarrow +\infty} ~a_n = \alpha$, then $lim~_{n \rightarrow +\infty} \sqrt[k]{a_n} = \sqrt[k]{\alpha}$ 
+The proof involves the monotonicity of the root. 
+
+Be careful of indeterminate expressions, we must look at the order of the infinity.
+$\sqrt[n]{n}$ goes to $1$, yet $\sqrt[n]{n!}$ goes to $+\infty$
+Be aware of: $1^{\pm \infty}, (\pm \infty)^0, 0^0$
+
+...
+
+The supermum and infimum of a sequence is the supermum and infimum of the image of the sequence.
+
+By theorem, every monotonic sequence has a limit.
+If the sequence is increasing and bounded from above, then the limit equals its supermum.
+If the sequence is increasing and not bounded from above, then its limit equals $+\infty$.
+If the sequence is decreasing and bounded from below, then its limit equals its infimum.
+If th sequence is decreasing and not bounded from below, then its limit equals $-\infty$.
