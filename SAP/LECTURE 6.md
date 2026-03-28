@@ -86,7 +86,7 @@ We have to sacrifice some positive numbers for the representation, we have to li
 All computers are using the radix complement code.
 The definition is...
 $RC(X) =X$ if $X \geq 0$
-$RC(X) = M+X$ if $X < 0$
+$RC(X) = M-X$ if $X < 0$
 Where $M$ is the number with the MSB flipped on.
 ![[Pasted image 20260316193703.png]]
 This also demystifies overflow/underflow.

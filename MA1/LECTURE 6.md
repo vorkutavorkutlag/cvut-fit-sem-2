@@ -45,5 +45,5 @@ When functions have different domains and images, they are not equal.
 However, they can be locally identical in a neighborhood.
 That can be used to compute the limit after simplifications.
 
-Quadratic bound on exponentiation: $1+x-x^2 < e^x < 1+x+x^2$
+Quadratic bound on exponentiation: $1+x-x^2 \leq e^x \leq 1+x+x^2$
 
