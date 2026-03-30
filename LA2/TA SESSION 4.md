@@ -105,3 +105,5 @@ Compute $T\begin{bmatrix} a & b \\ c & d \end{bmatrix}$ .
 $=[T]_{\mathcal E \leftarrow \mathcal E} \begin{bmatrix} a & b \\ c & d \end{bmatrix}_{\mathcal E}=[T]_{\mathcal E \leftarrow \mathcal E} \begin{bmatrix} a & b \\ c & d \end{bmatrix}$
 ...
 $\begin{bmatrix} 0 & 2b+2c \\ b+d & a+4b+2c\end{bmatrix}$
+
+(V, b1), (W, b2)
