@@ -24,7 +24,7 @@ We can also prove $\lim_{n \rightarrow +\infty} \frac{\ln(n)}{n} = 0$ . Proof is
 Then, $\ln(n) \in o(n)$
 
 Hierarchy:
-$log_a n \ll n^a \ll b^n \ll n! \ll n^n$ 
+$$log_a n \ll n^a \ll b^n \ll n! \ll n^n$$
 
 If the limit of the quotient is equal to a finite number, then by the definition of limit, we can find a neighborhood of that point such that big O is satisfied. 
 $\lim_{x \rightarrow a} \frac{|f(x)|}{|g(x)|} = L \geq 0 \implies f\in O(g)$ 

@@ -5,7 +5,7 @@ Two Armies' / Generals' Problem
 
 When there is an unreliable link between two sources of information, it is difficult to agree on a truth.
 The solution is to:
-1. A sends a messenger with a purposal
+1. A sends a messenger with a proposal
 2. B sends a messenger back with confirmation
 3. But then, how does B know the confirmation was delivered? Then, A sends an acknowledgement messenger.
 4. ...B has to send the acknowledge messenger back, etc.
