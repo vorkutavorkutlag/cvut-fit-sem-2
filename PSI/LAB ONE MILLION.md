@@ -1,0 +1,1 @@
+use `calculator.net` for doing bitmasks and ip range segmenting and the likes.

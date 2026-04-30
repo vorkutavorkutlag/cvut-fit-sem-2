@@ -57,7 +57,7 @@ Since the polynomial is arbitrary, the mapping is surjective.
 The algebraic properties, scalar multiplication, inverses, identities, are the same.
 This is the notion of equality of a vector space.
 
-Proposition: $\mathbb{P}_{n-1}(\mathbb{F}) =\mathbb{F}^n$ 
+Proposition: $\mathbb{P}_{n-1}(\mathbb{F}) \cong \mathbb{F}^n$ 
 
 
 A way to disprove an isomorphism is by assuming there exists isomorphism and then deriving some absurd consequence.
