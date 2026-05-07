@@ -15,7 +15,7 @@ Congestion window when the sender voluntarily decreases the size of the window.
 
 Tahoe variant TCP flow control. Reno not so important.
 
-Sometimes students say in the exam that UDP is faster because there are no limitations and there's no need to send confirmations, etc. Though, it is silly to say it is faster. To be faster, is to send data at a faster rate, which means technically we can saturate the link with more useful data. Though, during the transmission, every time we want to submit the data, we want to be sure this data is delivered, and we don't have that with UDP. It is used for different times of transmissions, for example, live streaming.
+Sometimes students say in the exam that UDP is faster because there are no limitations and there's no need to send confirmations, etc. Though, it is silly to say it is faster. To be faster, is to send data at a faster rate, which means technically we can saturate the link with more useful data. Though, during the transmission, every time we want to submit the data, we want to be sure this data is delivered, and we don't have that with UDP. It is used for different types of transmissions, for example, live streaming.
 
 May ask about QUIC, a protocol developed by Google in recent years, and it handles the connections and flow control. It is implemented on application layer,m and the data is sent over UDP. 
 
